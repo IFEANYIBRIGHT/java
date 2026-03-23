@@ -49,6 +49,7 @@ public class MilkyDoughnut{
    }
 
 
+<<<<<<< HEAD
 
     public static int[] perfectSquare(int number){
 
@@ -60,6 +61,19 @@ public class MilkyDoughnut{
         }
     
         return result;
+=======
+public static int[] getPerfectSquares(int number) {
+
+    int[] result = new int[number];
+
+    for (int count = 0; count < number; count++) {
+        int currentNumber = count + 1;
+        result[count] = currentNumber * currentNumber;
+    }
+
+    return result;
+
+>>>>>>> 8015333 (added perfect squares solution)
 
 
 

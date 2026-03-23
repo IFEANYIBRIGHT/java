@@ -30,13 +30,21 @@ public class MilkyDoughnutTest{
 
     int [] numbers = {1,4,5,6,7,34,56,32};
 
+<<<<<<< HEAD
     int target = 34;
+=======
+    int target = 5;
+>>>>>>> 8015333 (added perfect squares solution)
 
     MilkyDoughnut  search = new MilkyDoughnut();
 
     int actual = search.linearSearch(numbers,target);
 
+<<<<<<< HEAD
     int expected  = 34;
+=======
+    int expected  = 2;
+>>>>>>> 8015333 (added perfect squares solution)
 
     assertEquals(actual,expected);
 
@@ -56,11 +64,19 @@ public class MilkyDoughnutTest{
 
     MilkyDoughnut squares = new MilkyDoughnut();
 
+<<<<<<< HEAD
     int actual = squares.getPerfectSquares(numbers);
 
     int expected = 25;
 
     assertEquals(actual,expected);
+=======
+    int actual []= squares.getPerfectSquares(numbers);
+
+    int expected []= {1,4,9,16,25};
+
+    assertArrayEquals(actual,expected);
+>>>>>>> 8015333 (added perfect squares solution)
 
 
 
